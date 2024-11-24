@@ -22,4 +22,29 @@ function App() {
   );
 }
 
-export default App;
+function handleClick(){
+  alert('you clicked me');
+}
+
+function MyButton(){
+  // function handleClick(){
+  //   alert('you clicked me');
+  // }
+
+  return (
+    <button onClick={handleClick}>
+      Click!
+    </button>
+  );
+}
+
+// export default App;
+export default function MyApp(){
+  return(
+    <div>
+      <h1>Welcome!</h1>
+      <MyButton/>
+      <App/>
+    </div>
+  );
+}
