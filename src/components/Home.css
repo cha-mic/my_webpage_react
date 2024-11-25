@@ -1,0 +1,23 @@
+.home {
+    /* width: 70%; */
+    margin: auto;
+    background-color: white;
+    color: black;
+}
+
+/* Intro */
+.introduction {
+    display: flex;
+}
+
+.intro-logo {
+    padding: 10pt;
+}
+
+img.intro-logo{
+    height: 30vh;
+}
+
+.intro-item {
+    padding: 10pt;
+}
