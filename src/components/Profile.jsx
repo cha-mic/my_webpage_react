@@ -1,0 +1,37 @@
+import React, { useEffect, useState } from "react";
+import Data from '../data/profile.json'
+
+export const ReadJson = () =>{
+
+    /** jsonデータ編集 */
+    const cdList = [];
+    for (var cdNo in Data) {
+        const cdStr =  Data[cdNo]["period"] + ":" + Data[cdNo]["organization"];
+        cdList.push(cdStr);
+    }
+
+    return (
+        <div>
+        <h1>Items List</h1>
+        <ul>
+        {cdList.map((item, index) => (
+            <li key={index}>
+            {item}
+            </li>
+        ))}
+        </ul>
+    </div>
+    );
+};
+
+function Profile(){
+
+    return (
+        <div>
+            <ReadJson />
+        </div>
+    );   
+    
+}
+
+export default Profile;

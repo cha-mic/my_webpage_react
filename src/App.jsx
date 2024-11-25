@@ -3,14 +3,6 @@ import logo from './figs/haguruma_gear4_yellow.png';
 import './App.css';
 import Header from './Header';
 
-// function Header(){
-//   return (
-//     <div className='header'>
-
-//     </div>
-//   )
-// }
-
 function App() {
   return (
     <div className="App">
@@ -32,29 +24,13 @@ function App() {
   );
 }
 
-function handleClick(){
-  alert('you clicked me');
-}
-
-function MyButton(){
-  // function handleClick(){
-  //   alert('you clicked me');
-  // }
-
-  return (
-    <button onClick={handleClick}>
-      Click!
-    </button>
-  );
-}
-
 // export default App;
 export default function MyApp(){
   return(
     <div>
       
       <Header/>
-      <h1>Welcome!</h1>
+      {/* <h1>Welcome!</h1> */}
       <App/>
       
     </div>

@@ -1,6 +1,8 @@
 import './Home.css';
 import logo from '../figs/logo_intro_dummy.png'
 
+import Profile from './Profile'
+
 function Introduction(){
     return(
         <div className='introduction'>
@@ -21,6 +23,7 @@ export const Home = () => {
       <div className='home'>
         <h1>Home</h1>
         <Introduction />
+        <Profile />
       </div>
     );
 };
