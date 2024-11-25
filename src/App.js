@@ -1,5 +1,15 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
+import logo from './figs/haguruma_gear4_yellow.png';
 import './App.css';
+import Header from './Header';
+
+// function Header(){
+//   return (
+//     <div className='header'>
+
+//     </div>
+//   )
+// }
 
 function App() {
   return (
@@ -42,6 +52,7 @@ function MyButton(){
 export default function MyApp(){
   return(
     <div>
+      <Header/>
       <h1>Welcome!</h1>
       <MyButton/>
       <App/>
