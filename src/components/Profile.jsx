@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Data from '../data/profile.json'
 
-export const ReadJson = () =>{
+export const ReadProfile = () =>{
 
     /** jsonデータ編集 */
     const cdList = [];
@@ -28,7 +28,7 @@ function Profile(){
 
     return (
         <div>
-            <ReadJson />
+            <ReadProfile />
         </div>
     );   
     
