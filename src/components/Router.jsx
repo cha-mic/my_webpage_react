@@ -7,7 +7,7 @@ export const Router = () => {
   return (
     <Routes>
       {/* exactをつけると完全一致になります。Homeはexactをつけてあげます */}
-      <Route exact path="/Home" element={<Home />}>
+      <Route exact path="/" element={<Home />}>
       </Route>
       <Route path="/Research" element={<Research />}>
       </Route>

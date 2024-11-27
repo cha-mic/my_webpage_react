@@ -1,25 +1,28 @@
 // import logo from './logo.svg';
+import { BrowserRouter, Link} from "react-router-dom";
+import { Router } from "./components/Router";
+
 import logo from './figs/haguruma_gear4_yellow.png';
 import './App.css';
 import Header from './Header';
 
-function App() {
+function Switch_contents(){
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="switch-contents">
+
+      <BrowserRouter>
+      <div className="switch-contents-disp">
+        <div className="nav">
+          <ul>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/Research">Research</Link></li>
+            <li><Link to="/Portfolio">Portfolio</Link></li>
+          </ul>
+        </div>
+      </div>
+      <Router />
+      </BrowserRouter>
+
     </div>
   );
 }
@@ -30,8 +33,9 @@ export default function MyApp(){
     <div>
       
       <Header/>
+      {/* <br/> */}
+      <Switch_contents/>
       {/* <h1>Welcome!</h1> */}
-      <App/>
       
     </div>
   );
