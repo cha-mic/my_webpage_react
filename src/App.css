@@ -39,8 +39,9 @@
 
 /* コンテンツ部分 */
 .switch-contents {
-  /* margin: auto; */
   /* height: 10%; */
+  /* width: 70%; */
+  /* margin: 0 auto; */
   margin: 0;
   padding: 0;
   background-color: #333;

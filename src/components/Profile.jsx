@@ -12,7 +12,7 @@ export const ReadProfile = () =>{
 
     return (
         <div>
-        <h1>Items List</h1>
+        <h1>Profile</h1>
         <ul>
         {cdList.map((item, index) => (
             <li key={index}>

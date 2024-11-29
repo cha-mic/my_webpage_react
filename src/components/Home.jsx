@@ -1,7 +1,7 @@
 import './Home.css';
-import logo from '../figs/logo_intro_dummy.png'
-
 import Profile from './Profile'
+
+import logo from '../figs/logo_intro_dummy.png'
 
 function Introduction(){
     return(
@@ -20,9 +20,11 @@ function Introduction(){
 export const Home = () => {
     return (
       <div className='home'>
-        <h1>Home</h1>
-        <Introduction />
-        <Profile />
+        <div className='home-disp'>
+            <h1>Home</h1>
+            <Introduction />
+            <Profile />            
+        </div>
       </div>
     );
 };

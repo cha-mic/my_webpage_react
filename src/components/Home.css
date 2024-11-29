@@ -1,5 +1,12 @@
 .home {
     /* width: 70%; */
+    padding: 5px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.home-disp {
+    width: 70%;
     margin: auto;
     background-color: white;
     color: black;

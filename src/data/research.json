@@ -3,30 +3,35 @@
         "title": "支持・推進力の計測のための柔軟な足根関節を持つ足先センサモジュール,",
         "auther": "大原 迪久, 田中宏明, 松本旺二郎, 有川晋平, 川節拓実, 細田耕,",
         "publisher": "ロボティクス・メカトロニクス講演会2023 (ROBOMECH2023),",
-        "year": "2023."
+        "year": "2023.",
+        "doi": ""
     },
     "pb2":{
         "title": "Foot Sensor Module of Musculoskeletal Legged Robot for Vertical and Horizontal GRF with Elastic Metacarpophalangeal Joint,",
         "auther": "Michihisa Ohara, Hiroaki Tanaka, Ojiro Matsumoto, Shinpei Arikawa, Takumi Kawasetsu and Koh Hosoda,",
         "publisher": "The 11th International Symposium on Adaptive Motion of Animals and Machines (AMAM2023),",
-        "year": "2023."
+        "year": "2023.",
+        "doi": "https://doi.org/10.18910/92307"
     },
     "pb3":{
         "title": "柔軟膜を用いたオープンソースなフローティングフィンガー機構,",
         "auther": "大原迪久, 小山佳祐, 原田研介,",
         "publisher": "第24回計測自動制御学会システムインテグレーション部門講演会 (SI2023),",
-        "year": "2023."
+        "year": "2023.",
+        "doi": "None"
     },
     "pb4":{
-        "title": "柔軟指の操作時振動を利用した小型物体の把持個数推定",
+        "title": "柔軟指の操作時振動を利用した小型物体の把持個数推定,",
         "auther": "大原迪久, 小山佳祐, 原田研介,",
         "publisher": "第42回ロボット学会学術講演会 (RSJ2024),",
-        "year": "2024."
+        "year": "2024.",
+        "doi": "None"
     },
     "pb5":{
-        "title": "Bin-Picking of Small Objects Using Compliant Fingers with Proximity Sensors",
+        "title": "Bin-Picking of Small Objects Using Compliant Fingers with Proximity Sensors,",
         "auther": "Michihisa Ohara, Keisuke Koyama, Kensuke Harada,",
         "publisher": "IEEE/SICE International Symposium on System Integration (SII2025),",
-        "year": "2025."
+        "year": "2025.",
+        "doi": "None"
     }
 }

@@ -1,0 +1,43 @@
+.research {
+    padding: 5px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.research-disp {
+    width: 70%;
+    margin: auto;
+    background-color: white;
+    color: black;
+}
+
+.publications ol {
+    /* width: 100%; */
+    /* display: flex; */
+    /* padding: 10px; */
+    background-color: #fcfca2;
+}
+
+.publications li {
+    margin: auto;
+    padding: 5px;
+}
+
+.doi-button {
+    display: inline-block;
+    font-size: 0.8rem;
+    font-family: Arial;
+    /* font-weight: bold; */
+    /* width: 3em; */
+    letter-spacing: 0.1em;
+    padding: 0.1rem 0.4rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #00bbff;
+}
+
+.doi-button a {
+    text-decoration: none;
+    color: white;
+}
