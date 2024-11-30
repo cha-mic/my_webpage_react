@@ -1,0 +1,29 @@
+.portfolio {
+    font-family: Arial, "メイリオ", "Meiryo UI";
+    padding: 5px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.portfolio-disp {
+    width: 70%;
+    margin: auto;
+    background-color: white;
+    color: black;
+}
+
+.portfolio-list {
+    /* display: flex; */
+    margin: 0 auto;
+}
+
+.portfolio-list p {
+    text-align: left;
+    font-size: 100%;
+    font-family: Arial, "メイリオ", "Meiryo UI";
+    font-weight: bold;
+}
+
+.portfolio-content img {
+    width: 20%;
+}

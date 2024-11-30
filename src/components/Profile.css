@@ -1,0 +1,57 @@
+
+/* Profileの中身 */
+.profile {
+    font-family: Arial, "メイリオ", "Meiryo UI";
+}
+
+.profile-contents {
+    margin: 0 auto;
+    display: flex;
+}
+
+.period {
+    font-family: Arial, "メイリオ", "Meiryo UI";
+    width: 20%;
+    padding: 7px;
+    text-align: right;
+    border-right: 3px solid #00bbff;
+}
+
+.organization {
+    font-family: Arial, "メイリオ", "Meiryo UI";
+    width: auto;
+    margin: 7px;
+    text-align: left;
+}
+
+/* ボタン */
+.link-button {
+    display: inline-block;
+    font-size: 0.9rem;
+    font-family: Arial, "メイリオ", "Meiryo UI";
+    font-weight: bold;
+    /* width: 3em; */
+    letter-spacing: 0.1em;
+    padding: 0.1rem 0.4rem;
+    margin: 8px;
+    border-radius: 0.5rem;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #00bbff;
+}
+
+.link-button a {
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    transition: .3s;
+}
+
+.link-button:hover {
+    background-color: white;
+}
+
+.link-button a:hover{
+    color: #00bbff;
+}

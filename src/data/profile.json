@@ -1,22 +1,27 @@
 {
     "pr1":{
-        "period": "2000年2月",
-        "organization":"兵庫県 尼崎市 出身"
+        "period": "2000年  2月",
+        "organization":"兵庫県 尼崎市 出身",
+        "link": ""
     },
     "pr2":{
-        "period": "2019年4月 - 2023年3月",
-        "organization":"大阪大学 基礎工学部 システム科学科"
+        "period": "2019年  4月 - 2023年  3月",
+        "organization":"大阪大学 基礎工学部 システム科学科",
+        "link": ""
     },
     "pr3":{
-        "period": "2019年4月 - 2022年3月",
-        "organization":"大阪大学 Robohan"
+        "period": "2019年  4月 - 2022年  3月",
+        "organization":"大阪大学 Robohan",
+        "link": "https://www.robohan.net/"
     },
     "pr4":{
-        "period": "2021年10月 - 2023年3月",
-        "organization":"大阪大学 基礎工学部 システム科学科 知能システム学コース 旧細田研究室"
+        "period": "2021年10月 - 2023年  3月",
+        "organization":"大阪大学 基礎工学部 システム科学科 知能システム学コース 旧細田研究室",
+        "link": "https://www-arl.sys.es.osaka-u.ac.jp/site/"
     },
     "pr5":{
-        "period": "2023年4月 -",
-        "organization":"大阪大学 基礎工学研究科 システム創成専攻 システム科学領域 原田研究室"
+        "period": "2023年  4月 - 2025年  3月",
+        "organization":"大阪大学 基礎工学研究科 システム創成専攻 システム科学領域 原田研究室",
+        "link": "https://www.roboticmanipulation.org/"
     }
 }

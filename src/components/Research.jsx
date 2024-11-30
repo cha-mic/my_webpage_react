@@ -5,17 +5,6 @@ import './Research.css'
 
 import Data from '../data/research.json'
 
-// const DoiButton =(doi)=> {
-//   if(doi == "None"){
-//     return null
-//   }
-//   else{
-//     return (
-//       <Button as="a" href= {doi}>DOI</Button>
-//     )
-//   }
-// }
-
 const DoiButton = ({doi_}) => {
 
   if (!doi_ || doi_ === "None") {
