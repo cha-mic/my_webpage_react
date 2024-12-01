@@ -17,7 +17,6 @@ const PortfolioList = () => {
       <PortfolioContents_1 />
     </div>
   )
-
 }
 
 export const Portfolio = () => {

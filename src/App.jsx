@@ -5,6 +5,7 @@ import { Router } from "./components/Router";
 import logo from './figs/haguruma_gear4_yellow.png';
 import './App.css';
 import Header from './Header';
+import Footer from './components/Footer';
 
 function Switch_contents(){
   return (
@@ -17,6 +18,7 @@ function Switch_contents(){
             <li><Link to="/">Home</Link></li>
             <li><Link to="/Research">Research</Link></li>
             <li><Link to="/Portfolio">Portfolio</Link></li>
+            <li><Link to="/Contact">Contact</Link></li>
           </ul>
         </div>
       </div>
@@ -31,12 +33,11 @@ function Switch_contents(){
 export default function MyApp(){
   return(
     <div>
-      
       <Header/>
-      {/* <br/> */}
-      <Switch_contents/>
-      {/* <h1>Welcome!</h1> */}
-      
+      <div className="main-disp">
+        <Switch_contents/>
+      </div>
+      <Footer/>
     </div>
   );
 }

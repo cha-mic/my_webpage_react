@@ -14,8 +14,6 @@ function Header() {
         </div>
         <img src={logo} className="header-logo" alt="logo (gear)" />
       </div>
-      
-      {/* <Header_contents /> */}
     </header>
   );
 }
