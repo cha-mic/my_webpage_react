@@ -1,21 +1,8 @@
 import React, { useEffect, useState } from "react";
-import { Button} from 'react-bootstrap';
+import { LinkButton } from "./Linkbutton";
 
 import Data from '../data/profile.json'
 import './Profile.css'
-
-const LinkButton = ({Link}) => {
-
-    if (!Link || Link === "None") {
-      return null;
-    }
-    return (
-      <div className="link-button">
-        <Button as="a" href={Link}>LINK</Button>
-      </div>
-    );
-  
-  };
 
 export const ReadProfile = () =>{
 
