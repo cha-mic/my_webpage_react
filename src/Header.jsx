@@ -10,7 +10,8 @@ function Header() {
       <div className="header-disp">
         <img src={logo} className="header-logo" alt="logo (gear)" />
         <div className="logo">
-            <h1>My Webpage</h1>
+            <h1>Michihisa Ohara</h1>
+            Welcome to my webpage
         </div>
         <img src={logo} className="header-logo" alt="logo (gear)" />
       </div>

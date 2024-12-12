@@ -1,9 +1,11 @@
 .contact {
     font-family: Arial, "メイリオ", "Meiryo UI";
+    /* font-size: 32pt; */
     padding: 5px;
     margin: 0 auto;
     background-color: white;
 }
+
 
 .contact-disp {
     width: 70%;
@@ -14,4 +16,10 @@
 
 .contact-disp ul {
     list-style: none;
+}
+
+.contact-disp li {
+    height: fit-content;
+    margin: 7px;
+    vertical-align: middle;
 }
