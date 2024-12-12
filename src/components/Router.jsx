@@ -8,13 +8,13 @@ export const Router = () => {
   return (
     <Routes>
       {/* exactをつけると完全一致になります。Homeはexactをつけてあげます */}
-      <Route exact path="/" element={<Home />}>
+      <Route exact path="/my_webpage_react" element={<Home />}>
       </Route>
-      <Route path="/Research" element={<Research />}>
+      <Route path="/my_webpage_react/Research" element={<Research />}>
       </Route>
-      <Route path="/Portfolio" element={<Portfolio />}>
+      <Route path="/my_webpage_react/Portfolio" element={<Portfolio />}>
       </Route>
-      <Route path="/Contact" element={<Contact />}>
+      <Route path="/my_webpage_react/Contact" element={<Contact />}>
       </Route>
     </Routes>
   );

@@ -15,10 +15,10 @@ function Switch_contents(){
       <div className="switch-contents-disp">
         <div className="nav">
           <ul>
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/Research">Research</Link></li>
-            <li><Link to="/Portfolio">Portfolio</Link></li>
-            <li><Link to="/Contact">Contact</Link></li>
+            <li><Link to="/my_webpage_react/">Home</Link></li>
+            <li><Link to="/my_webpage_react/Research">Research</Link></li>
+            <li><Link to="/my_webpage_react/Portfolio">Portfolio</Link></li>
+            <li><Link to="/my_webpage_react/Contact">Contact</Link></li>
           </ul>
         </div>
       </div>
