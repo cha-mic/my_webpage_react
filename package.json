@@ -2,7 +2,7 @@
   "name": "my_webpage_react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://cha-mic.github.io",
+  "homepage": "http://cha-mic.github.io/my_webpage_react",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
