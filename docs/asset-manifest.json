@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my_webpage_react/static/css/main.615fde2c.css",
-    "main.js": "/my_webpage_react/static/js/main.952874ba.js",
+    "main.css": "/my_webpage_react/static/css/main.83d94d18.css",
+    "main.js": "/my_webpage_react/static/js/main.3f9d5c95.js",
     "static/js/453.18e4ff4a.chunk.js": "/my_webpage_react/static/js/453.18e4ff4a.chunk.js",
     "static/media/logo_intro_dummy.png": "/my_webpage_react/static/media/logo_intro_dummy.fc721dcf322d8f5b6d0c.png",
     "static/media/artifact_icon_1.png": "/my_webpage_react/static/media/artifact_icon_1.830716f35c2582490c50.png",
@@ -10,12 +10,12 @@
     "static/media/haguruma_gear4_yellow.png": "/my_webpage_react/static/media/haguruma_gear4_yellow.9c8c557d50ba27555178.png",
     "static/media/artifact_icon_0.png": "/my_webpage_react/static/media/artifact_icon_0.b23b8b5f1c0480876fc9.png",
     "index.html": "/my_webpage_react/index.html",
-    "main.615fde2c.css.map": "/my_webpage_react/static/css/main.615fde2c.css.map",
-    "main.952874ba.js.map": "/my_webpage_react/static/js/main.952874ba.js.map",
+    "main.83d94d18.css.map": "/my_webpage_react/static/css/main.83d94d18.css.map",
+    "main.3f9d5c95.js.map": "/my_webpage_react/static/js/main.3f9d5c95.js.map",
     "453.18e4ff4a.chunk.js.map": "/my_webpage_react/static/js/453.18e4ff4a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.615fde2c.css",
-    "static/js/main.952874ba.js"
+    "static/css/main.83d94d18.css",
+    "static/js/main.3f9d5c95.js"
   ]
 }

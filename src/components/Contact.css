@@ -19,7 +19,7 @@
 }
 
 .contact-disp li {
-    height: fit-content;
+    height: 30px;
     margin: 7px;
     vertical-align: middle;
 }

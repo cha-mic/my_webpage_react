@@ -6,9 +6,9 @@ export const Contact = () => {
         <div className='contact'>
             <div className='contact-disp'>
                 <ul>
-                    <li>Email : oohara * hlab.sys.es.osaka-u.ac.jp ( * → @ )</li>
-                    <li>X（旧Twitter）: * O_micim_O ( * → @ ) <LinkButton Link = {"https://x.com/O_micim_O"} /> </li>
-                    <li>GitHub : <LinkButton Link = {"https://github.com/cha-mic"} /> </li>
+                    <li>Email : moi.moi.michihisa2(at)gmail.com</li>
+                    <li>X（旧Twitter）: (at)O_micim_O <LinkButton Link = {"https://x.com/O_micim_O"} /> </li>
+                    <li>GitHub : cha-mic <LinkButton Link = {"https://github.com/cha-mic"} /> </li>
                 </ul>
             </div>        
         </div>
