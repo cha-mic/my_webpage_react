@@ -16,7 +16,7 @@ const PortfolioContents_1 = () => {
             製作時期
           </div>
           <div className='portfolio-ex'>
-            2023年5月-
+            2023年5月 - 2023年12月
           </div>          
         </div>
         <div className='portfolio-content-inner'>
@@ -54,7 +54,7 @@ const PortfolioContents_2 = () => {
             概要
           </div>
           <div className='portfolio-ex'>
-            卒業論文に向けて製作．
+            学部卒業論文に向けて製作．
             アクチュエータにマッキベン式空気圧人工筋肉を用いており， その配置は4脚動物の後脚を参考にしている．
             AMAM2023，ROBOMECH2023で発表．
           </div>          
