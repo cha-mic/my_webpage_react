@@ -1,0 +1,32 @@
+{
+    "pf1":{
+        "title": "Stanford Doggo",
+        "period": "2020年8月 - 2020年12月",
+        "capture": "自主研究奨励事業に応募し製作．Stanford大学がオープンソースで公開している4脚ロボット(Doggo)にメカナムホイールを取り付けた．",
+        "link": "https://hdl.handle.net/11094/80650"
+    },
+    "pf2":{
+        "title": "エアシリンダによる4脚ロボット",
+        "period": "2021年8月 - 2021年11月",
+        "capture": "まちかね祭での展示用に製作．各脚2個，合計8個のエアシリンダを使用している．脚軌道の生成にはスライダクランク機構を応用．初めはワニをイメージしていたが， 最終的にカエルのような形になった．",
+        "link": ""
+    },
+    "pf3":{
+        "title": "空気圧人工筋による疑似4脚ロボット",
+        "period": "2022年9月 - 2023年1月",
+        "capture": "学部卒業論文に向けて製作．アクチュエータにマッキベン式空気圧人工筋肉を用いており， その配置は4脚動物の後脚を参考にしている．AMAM2023，ROBOMECH2023で発表．",
+        "link": ""
+    },
+    "pf4":{
+        "title": "柔軟膜を用いたフローティングフィンガー",
+        "period": "2023年5月 - 2023年12月",
+        "capture": "近接覚センサを用いたビジョンセンサレスばら積みピッキングを実現するための機構．部品データと組み立て方法をgithub上で公開している．SI2023で発表．",
+        "link": "https://github.com/Osaka-University-Harada-Laboratory/RubberSheet_Floating_Finger"
+    },
+    "pf5":{
+        "title": "OchaWiki",
+        "period": "2025年5月 -",
+        "capture": "業務でソフトウェアを触ることが多くなったので，個人用の備忘録的なWikiを作りました．",
+        "link": "https://gitlab.com/cha-mic-group/OchaWiki/-/wikis/home"
+    }
+}
