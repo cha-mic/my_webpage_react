@@ -59,3 +59,50 @@
     margin: 7px;
     text-align: left;
 }
+
+/* スマホ対応用 */
+@media screen and (max-width: 768px) {
+    .portfolio-disp {
+        width: 95%;
+        padding: 10px;
+    }
+
+    .portfolio-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .portfolio-content-inner {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .portfolio-content img {
+        width: 80%;
+        margin: 10px auto;
+        display: block;
+    }
+
+    .portfolio-title {
+        width: 100%;
+        text-align: left;
+        border-right: none;
+        border-bottom: 2px solid #00bbff;
+        padding: 5px 0;
+    }
+
+    .portfolio-ex {
+        width: 100%;
+        margin: 10px 0;
+        padding-left: 0;
+    }
+
+    .portfolio-list p {
+        font-size: 1rem;
+        padding: 5px 0;
+    }
+
+    .portfolio-content-outer {
+        width: 100%;
+    }
+}
