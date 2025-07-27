@@ -50,3 +50,26 @@ img.header-logo{
     height: 10vh;
     width: 10vh;
 }
+
+/* ===== スマホ用メディアクエリ ===== */
+@media screen and (max-width: 768px) {
+    .header-disp {
+        flex-direction: column; /* ロゴとタイトルを縦並びに */
+        text-align: center;
+        padding: 15px;
+    }
+
+    .logo {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .logo h1 {
+        font-size: 24px;
+    }
+
+    img.header-logo {
+        width: 60px;
+        height: auto;
+    }
+}
