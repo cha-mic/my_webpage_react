@@ -2,11 +2,39 @@ import './Portfolio.css';
 import icon0 from '../figs/artifact_icon_0.png';
 import icon1 from '../figs/artifact_icon_3.png';
 import icon2 from '../figs/artifact_icon_1.png';
+import icon3 from '../figs/computer_tokui_boy.png';
 
 
 import { LinkButton } from "./Linkbutton";
 
-const PortfolioContents_1 = () => {
+const PortfolioContents_5 = () => {
+  return (
+    <div className='portfolio-content'>
+      <img src={icon3} alt="Computer tokui boy" />
+      <div className='portfolio-content-outer'>
+        <div className='portfolio-content-inner'>
+          <div className='portfolio-title'>
+            製作時期
+          </div>
+          <div className='portfolio-ex'>
+            2025年5月 -
+          </div>          
+        </div>
+        <div className='portfolio-content-inner'>
+          <div className='portfolio-title'>
+            概要
+          </div>
+          <div className='portfolio-ex'>
+            業務でソフトウェアを触ることが多くなったので，個人用の備忘録的なWikiを作りました．
+            <LinkButton Link = {"https://gitlab.com/cha-mic-group/OchaWiki/-/wikis/home"} />
+          </div>          
+        </div>
+      </div>
+    </div>
+  )
+};
+
+const PortfolioContents_4 = () => {
   return (
     <div className='portfolio-content'>
       <img src={icon1} alt="Floating Finger" />
@@ -36,7 +64,7 @@ const PortfolioContents_1 = () => {
   )
 };
 
-const PortfolioContents_2 = () => {
+const PortfolioContents_3 = () => {
   return (
     <div className='portfolio-content'>
       <img src={icon2} alt="Quadroped" />
@@ -64,7 +92,7 @@ const PortfolioContents_2 = () => {
   )
 };
 
-const PortfolioContents_3 = () => {
+const PortfolioContents_2 = () => {
   return (
     <div className='portfolio-content'>
       <img src={icon0} alt="dog" />
@@ -92,7 +120,7 @@ const PortfolioContents_3 = () => {
   )
 }
 
-const PortfolioContents_4 = () => {
+const PortfolioContents_1 = () => {
   return (
     <div className='portfolio-content'>
       <img src={icon0} alt="dog" />
@@ -123,14 +151,16 @@ const PortfolioContents_4 = () => {
 const PortfolioList = () => {
   return (
     <div className='portfolio-list'>
+      <p>OchaWiki</p>
+      <PortfolioContents_5 />
       <p>柔軟膜を用いたフローティングフィンガー</p>
-      <PortfolioContents_1 />
-      <p>空気圧人工筋による疑似4脚ロボット</p>
-      <PortfolioContents_2 />
-      <p>エアシリンダによる4脚ロボット</p>
-      <PortfolioContents_3 />
-      <p>Stanford Doggo</p>
       <PortfolioContents_4 />
+      <p>空気圧人工筋による疑似4脚ロボット</p>
+      <PortfolioContents_3 />
+      <p>エアシリンダによる4脚ロボット</p>
+      <PortfolioContents_2 />
+      <p>Stanford Doggo</p>
+      <PortfolioContents_1 />
     </div>
   )
 }
