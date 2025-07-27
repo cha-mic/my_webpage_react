@@ -1,20 +1,22 @@
-
 /* Profileの中身 */
 .profile {
     font-family: Arial, "メイリオ", "Meiryo UI";
     /* background-color: #00bbff; */
+    padding: 10px;
 }
 
 .profile-contents {
     margin: 0 auto;
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
+/* デスクトップ用 */
 .period {
     font-family: Arial, "メイリオ", "Meiryo UI";
     width: 20%;
     padding: 7px;
-    /* margin-left: 10%; */
     text-align: right;
     border-right: 3px solid #00bbff;
 }
@@ -24,4 +26,23 @@
     width: auto;
     margin: 7px;
     text-align: left;
+}
+
+/* スマホ・タブレット対応 */
+@media screen and (max-width: 768px) {
+    .profile-contents {
+        flex-direction: column;
+    }
+
+    .period {
+        width: 100%;
+        text-align: left;
+        border-right: none;
+        border-bottom: 2px solid #00bbff;
+    }
+
+    .organization {
+        width: 100%;
+        margin-top: 0;
+    }
 }
